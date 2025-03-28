@@ -1,0 +1,86 @@
+
+#plans_holder3{
+  position: relative;
+  top: 1100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2%;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 600px;
+  font-family: arab;
+  cursor:default;
+}
+#plans_box{
+  border-radius: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 20px;
+  justify-content: center;
+  align-items: end;
+  text-align: right;
+}
+#plans_box>div{
+  font-family: arab;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: right;
+  width: 300px;
+  height:300px;
+
+}
+#plans_box>div>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 34px;
+  background-color: rgb(100, 68, 0);
+  color: white;
+  border-radius: 50%;
+}
+
+#plans_box>div>p{
+
+  text-align: center;
+  position: relative;
+  right: 10PX;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.671);
+  text-align: right;
+  font-weight: 90;
+  font-size: 13px;
+
+}
+#plans_box>div>h3{
+cursor: pointer;
+  font-weight: 100;
+  color: rgba(100, 68, 0, 0.63);
+  position: relative;
+    right: 40PX;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: right;
+  width: 100%;
+  height:calc(100%/3);
+}
+#plans_box>div>h3:hover{
+  color: rgba(100, 68, 0, 0.788);
+}
+#plans_type{
+
+  display: flex;
+  gap: 15px;
+  position: relative;
+  padding-right: 20px;
+}
+#plans_box{
+  height:360px;
+  width:300px; 
+  box-shadow: -4px 4px 10px 1px rgba(0, 0, 0, 0.2);
+}

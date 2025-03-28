@@ -1,0 +1,107 @@
+#logo{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+
+   
+  }
+
+  #logo>div{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../logo.PNG");
+    
+
+  }
+  @font-face {
+    font-family: arab;
+    src: url("../fonts/Montserrat-Arabic-Regular.ttf") format("truetype");
+  
+  }
+
+
+    #App{
+      
+      width: 100%;
+    }
+  
+    #items{
+      display: none;
+    }
+
+    #message{
+      display: flex;
+      align-items: center;
+
+      color: rgba(0, 0, 0, 0.534) ;
+      font-family: arab;
+      position: relative;
+      font-style: normal;
+      align-items: center;
+     display: flex;
+    justify-content: center;
+    border-radius: solid 1px ;
+
+    width: 20%;
+    }
+    #message>a{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+
+    }
+    #message>a{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      gap: 4px;
+      padding-left: 10px;
+      cursor: pointer;
+      
+    }
+    #mailIcon:hover{
+        color:rgb(100, 68, 0);
+    
+      
+    }
+    
+    #headerspace{
+    
+    width: 50%;
+    }
+    #meanHeader{
+      padding-right: 3%;
+      color: rgba(0, 0, 0, 0.534) ;
+      font-family: arab;
+      font-size: medium;
+      font-weight: 100;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40%;
+      gap: 3%;
+    }
+    .link{
+    color: rgba(0, 0, 0, 0.534) ;
+    text-decoration: none;
+    text-align: center;
+     position: relative;
+     left: 10%;
+    width: 100px;
+    cursor: pointer;
+    
+    }
+    .link:hover{
+      color:rgb(100, 68, 0);
+    }
+    /* #bk_login{
+
+    } */
+   

@@ -1,0 +1,121 @@
+
+@font-face {
+  font-family: arab2;
+  src: url("../fonts/alfont_com_TheYearofHandicrafts-Black.otf");
+}
+
+#plans_holder77{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2%;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 600px;
+  font-family: arab;
+  cursor:default;
+
+  top: 1000px;
+}
+  #plans_box1{
+
+    border-radius: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 20px;
+    justify-content: center;
+    align-items: end;
+    text-align: right;
+  }
+  #plans_box1>div{
+    font-family: arab2;
+    font-size: 21px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+    width: 300px;
+    height:300px;
+  
+  }
+  #plans_box1>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    width: 34px;
+    background-color:  white;
+    color:rgb(100, 68, 0);
+    border: solid 4px ;
+    border-radius: 50%;
+    
+  }
+  
+  #plans_box1>div>p{
+  
+    text-align: center;
+    position: relative;
+    right: 10PX;
+    line-height: 2;
+    color: rgba(0, 0, 0, 0.671);
+    text-align: right;
+    font-weight: 90;
+    font-size: 13px;
+  
+  }
+  #plans_box1>div>h3{
+  cursor: pointer;
+    font-weight: 100;
+    color: rgba(100, 68, 0, 0.63);
+    position: relative;
+      right: 40PX;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+    width: 100%;
+    height:calc(100%/3);
+  }
+  #plans_box1>div>h3:hover{
+    color: rgba(100, 68, 0, 0.164);
+  }
+  #plans_type2{
+    right: 30px;
+    align-items: end;
+    display: flex;
+    gap: 15px;
+    position: relative;
+
+  }
+  #plans_box1{
+    height:360px;
+    width:300px; 
+    box-shadow: -4px 4px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+  #anm{
+    position: relative;
+    right: 90px;
+    height: 120px;
+    width: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("./wired-gradient-56-document-hover-swipe.gif");
+  }
+  #anmimatedGif>div{
+    height: 100px;
+    width: 100px;
+    color: brown;
+    background-color: rgb(27, 128, 216);
+  }  @media only screen and (max-width: 576px) {
+    #plans_type2{
+      padding-top: 50px;
+
+  
+    }
+    }

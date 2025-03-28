@@ -1,0 +1,275 @@
+#leftSlide{
+  display:none;
+}
+
+#logo{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+
+   
+  }
+  #logo>div{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./logo.PNG");
+    
+
+  }
+  @font-face {
+    font-family: arab;
+    src: url("./fonts/Montserrat-Arabic-Regular.ttf") format("truetype");
+  
+  }
+
+
+    #App{
+      
+      width: 100%;
+    }
+  
+    #items{
+      display: none;
+    }
+    #header_holder{
+      position: relative;
+      top: -10px;
+        background-position: center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position-y: 7rem;
+        margin: 0;
+      display: flex;
+      justify-content: center;
+      height: 550px;
+      width: 100%;
+    }
+    /* Header*/
+    #header{
+      position: relative;
+      top: 100px;
+      height:80px;
+      width: 90%;
+      background-color: rgb(255, 255, 255);
+      z-index: 1;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+
+      box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.318);
+    
+    }
+    #message{
+      display: flex;
+      align-items: center;
+  
+      color: rgba(0, 0, 0, 0.534) ;
+      font-family: arab;
+      position: relative;
+      font-style: normal;
+      align-items: center;
+     display: flex;
+    justify-content: center;
+    border-radius: solid 1px ;
+
+    width: 20%;
+    }
+
+    #message>a{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+
+    }
+    #message>a{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      gap: 4px;
+      padding-left: 10px;
+      cursor: pointer;
+      
+    }
+    #mailIcon{
+
+      text-decoration: none;
+     color: rgba(0, 0, 0, 0.534) ;
+    
+      
+    }
+    #mailIcon:hover{
+      color:rgb(100, 68, 0);
+    }
+
+    #headerspace{
+    
+    width: 50%;
+    }
+    #meanHeader{
+      padding-right: 3%;
+      color: rgba(0, 0, 0, 0.534) ;
+      font-family: arab;
+      font-size: medium;
+      font-weight: 100;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40%;
+      gap: 3%;
+    }
+    .link{
+    color: rgba(0, 0, 0, 0.534) ;
+    text-decoration: none;
+    text-align: center;
+     position: relative;
+     left: 10%;
+    width: 100px;
+    cursor: pointer;
+    
+    }
+    .link:hover{
+      color:rgb(100, 68, 0);
+    }
+    /* #bk_login{
+
+    } */
+     
+
+    @media screen and (max-width: 688px) {
+
+
+      #bnutons>button{
+        height: 50px;
+        width: 120px;
+        font-size: small;
+      }
+
+
+
+      
+    
+      
+      #left_study_intro>h1{
+        color: #000;
+        font-size: xx-large;
+        width: 100%; 
+        animation: 7s animated-gradient infinite;
+        transition: 1s;
+      }
+    
+     
+    
+    
+      #leftSlide{
+    
+        display:inline-block;
+        border-radius: 5px;
+        color:  rgba(0, 0, 0, 0.534) ;;
+        opacity: 1 !important;
+        position: absolute;
+       transition: width 2s;
+        left: 0;
+        top: 43px;
+        height: 100%;
+        z-index: 1;
+        width:0;
+       background-color: white;
+        box-shadow:0px 0px 10px 1px rgba(0, 0, 0, 0.418); 
+      }
+      #hr_line{
+        position: relative;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    
+        height: 60px;
+      }
+      
+    
+      #intro_center>h1{
+        font-size:xxx-large;
+      }
+    
+      #intro_center>p{
+        font-size: medium;
+        text-align: center;
+      }
+    
+      #header{
+       
+        height: 60%;
+      }
+    
+      #message>a{
+        display: none;
+        
+      }
+
+      .linkhide{
+        display: none;
+      }
+      #meanHeader{
+        transition: 1s;
+        height: 100%;
+        margin-left: 60px;
+      }
+      #items{
+        display: inline;
+        transition: 0.1s;
+        opacity: 1;
+        cursor: pointer;
+        padding-left: 30px;
+        visibility:visible!important ;
+      }
+    #img_logo{
+      display: none;
+      height: 400px;
+      object-fit: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+      bottom: 0px;
+    
+    }
+    #img_logo>div{
+      height: 100%;
+      width: 100%;
+      background-size:900px;
+      background-position: center;
+      top: 0px;
+      
+    
+    
+    }
+    #header_holder {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+  #plans_holder{
+    position: relative;
+    padding-top: 300px;
+  }
+
+    }
+    #header_holder {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+    #plans_holder{
+    position: relative;
+    padding-top: 300px;
+  }

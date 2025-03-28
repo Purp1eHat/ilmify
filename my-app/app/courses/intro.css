@@ -1,0 +1,46 @@
+#intro2{
+    position: absolute;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+   
+  }
+  #intro_center2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #intro_center2>h1{
+    text-align: center;
+    justify-content: center;
+    font-family: arab7;
+    font-weight: 100;
+    font-size: 80px;
+  }
+  #intro_center2>h1>span{
+    color:   rgb(100, 68, 0);
+  }
+  #intro_center2>p{
+    position: relative;
+    top: 20px;
+   color: rgba(0, 0, 0, 0.61);
+   font-size: 30px;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+  font-family: arab;
+    width: 90%;
+  }
+
+
+  @font-face {
+    font-family: arab7;
+    src: url("../fonts/alfont_com_TheYearofHandicrafts-Black.otf");
+  }
+
+

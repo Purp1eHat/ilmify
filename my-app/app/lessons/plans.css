@@ -1,0 +1,258 @@
+#meanHeader>div{
+    z-index: 1;
+    position: relative;
+    left: 30px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Logo\ 2_page-0001.jpg");
+    
+   
+  }
+  @font-face {
+    font-family: arab;
+    src: url("../fonts/Montserrat-Arabic-Regular.ttf") format("truetype");
+  
+  }
+
+
+    #App{
+      
+      width: 100%;
+    }
+  
+    #items{
+      display: none;
+    }
+    body{overflow-x: hidden;}
+    #bakaPrice1{
+      display: flex;
+      color: rgba(138, 138, 138, 0.699);
+      justify-content: center;
+      position: relative;
+  
+      bottom: 50px;
+  
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 24px;
+    }
+    #bakaPrice{
+      display: flex;
+      
+      justify-content: center;
+      position: relative;
+  
+      bottom:10px;
+  
+      font-family: arab;
+      font-size: larger;
+    }
+    #header_holderLesson{
+
+      
+      
+        background-position: center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position-y: 7rem;
+
+        margin: 0;
+      display: flex;
+      justify-content: center;
+      height: 550px;
+      width: 100%;
+    
+    }
+
+    /* Header*/
+    #header{
+      position: relative;
+      top: 100px;
+      height:80px;
+      width: 90%;
+      background-color: rgb(255, 255, 255);
+      z-index: 1;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+
+      box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.318);
+    }
+    #message{
+      display: flex;
+      align-items: center;
+  
+      color: rgba(0, 0, 0, 0.534) ;
+      font-family: arab;
+      position: relative;
+      font-style: normal;
+      align-items: center;
+     display: flex;
+    justify-content: center;
+    border-radius: solid 1px ;
+
+    width: 20%;
+    }
+    #message>a{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+
+    }
+    #message>a{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      gap: 4px;
+      padding-left: 10px;
+      cursor: pointer;
+      
+    }
+    #mailIcon:hover{
+        color:rgb(100, 68, 0);
+    
+      
+    }
+    #headerspace{
+    
+    width: 50%;
+    }
+    #meanHeader{
+      padding-right: 3%;
+      color: rgba(0, 0, 0, 0.534) ;
+      font-family: arab;
+      font-size: medium;
+      font-weight: 100;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40%;
+      gap: 1%;
+    }
+    #meanHeader>a{
+    text-align: center;
+     position: relative;
+     left: 10%;
+    width: 100px;
+    cursor: pointer;
+    
+    }
+    #meanHeader>a:hover{
+      color:rgb(100, 68, 0);
+    }
+    /* #bk_login{
+
+    } */
+    #plan_lesson{
+
+    display: flex;
+      gap: 30px;
+      justify-content: center;
+      #txtShow{
+        display: none;
+      }
+
+    }
+
+
+    #plan1>div{
+      
+      transition-duration: 0.3s;
+      font-family: arab;
+      border-radius: 12px;
+      cursor: pointer;
+      height: 150px;
+      width: 150px;
+
+      
+
+    }
+    
+    #plan1>div:hover{
+      
+      transition-duration: 0.3s;
+      font-family: arab;
+      border-radius: 12px;
+      cursor: pointer;
+      height: 450px;
+      width: 330px;
+      border: solid 1px rgb(100, 68, 0);
+      #txtShow{
+        display:contents;
+        background-color: aqua;
+      }
+      #lessonName{ padding-top: 15px; position: relative; top: 100px; right: 10px; }
+      
+
+    }
+
+    #readMore{
+      
+      transition-duration: 0.3s;
+    
+      border: solid 1px rgba(100, 68, 0, 0.13);
+      font-family: arab;
+      color:rgb(100, 68, 0);
+      
+    }
+    #readMore:hover{
+      border: solid 1px rgb(100, 68, 0);
+      font-family: arab;
+      background-color:white ;
+      color:rgb(100, 68, 0);
+    }
+   
+   #subscribe{
+   border-top: solid 1px #c76f1d46 ;
+   background-color: #c76f1d18;
+   backdrop-filter: blur(1px);
+    position: fixed;
+    bottom: 0px;
+    left: -0px;
+    font-family: arab;
+   }
+   #subButton{
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border: none;
+    font-family: arab;
+    background-color: rgb(100, 68, 0);
+    color: white;
+   }
+   #subButton:hover{
+    transition-duration: 0.3s;
+    box-shadow: 1px 1px 11px 1px rgba(0, 0, 0, 0.308);
+   }
+   #iconPlans1{
+    color: rgb(100, 68, 0);
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(100, 68, 0, 0.137);
+    border-radius: 50%;
+    
+    
+  }
+#lessonName{
+  padding-top: 65px;
+  padding-right: -50px;
+  position: relative;
+
+  right: -20px;
+
+}
+  @media only screen and (max-width: 576px) {
+
+    #bakaPrice{
+      font-size: 14px;
+    }
+    #bakaPrice{
+      position: relative;
+      top: -15px;
+      font-size: 20px;
+    }
+    }

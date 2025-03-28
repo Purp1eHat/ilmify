@@ -1,0 +1,117 @@
+#imgShow_holder{
+  
+    background-color: #dee2e63b;;
+    width: 100%;
+    height: 600px;
+    position: relative;
+  right: 0px;
+  top: 950px;
+}
+#imgShow{
+  display: flex;
+    padding: 10px;
+
+    position: absolute;
+    height:100%;
+    width: 100%;
+}
+#imgShow_img{ height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+
+}
+
+#imgShow_img>div{
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  position: relative;
+  right: 10%;
+  background-image: url("./WhatsApp\ Image\ 2025-01-17\ at\ 4.52.34\ PM\ \(1\).jpeg");
+  background-position: center;
+  background-position-x: -140px;
+  background-size: cover;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.233);
+
+}
+#imgShow_txt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  font-family: arab;
+ 
+  
+ 
+
+}
+#imgShow_txt>p{
+  color: rgba(0, 0, 0, 0.411);
+}
+#imgShow_txt>h1{
+  font-size: 50px;
+  color: rgb(100, 68, 0);
+
+}
+@media only screen and (max-width: 576px) {
+  #imgShow_img>div{
+    border-top-left-radius: 12px;
+  
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 70%;
+    background-position: center;
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #imgShow_txt>h1{
+    text-align: center;
+    font-size: 35px;
+
+  
+  }
+  #imgShow_txt>p{
+    
+    text-align:right;
+    padding-right: 20px;
+    font-size: 80%;
+  }
+
+
+}
+@media only screen and (max-width: 1684px) {
+  #imgShow{
+    gap: 10%;
+   
+  }
+  #imgShow_img>div{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 70%;
+    background-position: center;
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #imgShow_txt>h1{
+    text-align: center;
+    font-size: 35px;
+  
+  }
+  #imgShow_txt>p{
+    
+    text-align:right;
+    padding-right: 20px;
+    font-size: 80%;
+  }
+
+
+}
+
+

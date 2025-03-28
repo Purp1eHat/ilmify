@@ -1,0 +1,105 @@
+#intro_Lesson{
+display: flex;
+opacity: 0.8;
+
+    position: absolute;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+   
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  #intro_center_Lesson4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #intro_center_Lesson4>h1{
+    text-align: center;
+    justify-content: center;
+    font-family: arab1;
+    font-weight: 100;
+    font-size: 80px;
+    filter: drop-shadow(5px 5px px  rgba(100, 68, 0, 0.514));
+  }
+  #intro_center_Lesson4>h1>span{
+    color:   rgb(100, 68, 0);
+  }
+  #intro_center_Lesson4>p{
+   position: relative;
+   bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+  font-family: arab;
+    width: 90%;
+  }
+  #bnutons1{
+    position: relative;
+    top: 40px;
+    gap: 2%;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  #call1,#login1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    font-family: arab;
+    font-size:large;
+    width: 170px;
+    height: 55px;
+  }
+  #call1{
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow:1px 1px 5px 0px  rgb(100, 68, 0);
+    background-color: rgb(100, 68, 0);
+  }
+  #login1{
+    transition-duration:0.7s;
+    cursor: pointer;
+    color: rgb(100, 68, 0);
+    border:solid 1px rgb(100, 68, 0);
+    border-radius: 16px;
+    background-color:white;
+  }
+  #login1:hover{
+    
+    transition-duration:0.7s;
+    color: white;
+    background-color:rgb(100, 68, 0);
+  }
+  @font-face {
+    font-family: arab1;
+    src: url("../fonts/alfont_com_V2F0YWQub3RmMTY1ODA0NDU1NTg1MQ.otf");
+  }
+  #backphoto{
+    opacity: 1;
+    position: relative;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    background-size:cover;    background-image: url("https://img.freepik.com/free-vector/science-scribbles_23-2147501583.jpg?t=st=1738169201~exp=1738172801~hmac=c800bce5f3c75575d684d50c414b4750cf6e6c917972dbe5c60c8fa93e50a7e6&w=826");
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 70%;
+
+
+
+
+  }

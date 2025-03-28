@@ -1,0 +1,96 @@
+#intro{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+   
+  }
+  #intro_center9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #intro_center9>h1{
+    transform: translateX(200px);
+    transition: 1s;
+    text-align: center;
+    justify-content: center;
+    font-family: arab6;
+    font-weight: 100;
+    font-size: 80px;
+  }
+  #intro_center9>h1>span{
+    color:   rgb(100, 68, 0);
+  }
+  #intro_center9>p{
+
+  line-height: 30px;
+  
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+  font-family: arab;
+    width: 90%;
+  }
+  #bnutons{
+    position: relative;
+    top: 40px;
+    gap: 2%;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  #call,#login{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    font-family: arab;
+    font-size:large;
+    width: 170px;
+    height: 55px;
+  }
+  #call{
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow:1px 1px 5px 0px  rgb(100, 68, 0);
+    background-color: rgb(100, 68, 0);
+  }
+  #login{
+    transition-duration:0.7s;
+    cursor: pointer;
+    color: rgb(100, 68, 0);
+    border:solid 1px rgb(100, 68, 0);
+    border-radius: 16px;
+    background-color:white;
+  }
+  #login:hover{
+    
+    transition-duration:0.7s;
+    color: white;
+    background-color:rgb(100, 68, 0);
+  }
+  @font-face {
+    font-family: arab6;
+    src: url("./fonts/alfont_com_TheYearofHandicrafts-Black.otf");
+  }
+
+  @media only screen and (max-width: 1684px) {
+    #intro{
+      top: 50px;
+    }
+  
+  
+  }
+  
